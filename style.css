@@ -387,7 +387,8 @@ footer p {
   }
 
   #home {
-    height: 120vh;
+    height: auto;
+    padding: 70px 0;
   }
 
   #home .window {
