@@ -19,6 +19,9 @@
           <a href="#services">Services</a>
           <a href="#contact">Contact</a>
         </div>
+        <div id="menu-button">
+          <img src="images/menu.svg" alt="" />
+        </div>
       </div>
     </nav>
     <section id="home">
@@ -29,7 +32,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illo dolores veniam magnam! Natus aliquam ex, perferendis dolor reprehenderit
             id eum eveniet doloribus deserunt, amet nesciunt, magnam rem iusto voluptatem.
           </p>
-          <div class="buttons">
+          <div class="buttons2">
             <a href="" class="button contact">Contact Us</a>
             <a href="" class="button learn">Learn more</a>
           </div>
@@ -89,15 +92,32 @@
           <p>Fill in the following information and write us your questions or suggestions, we will answer you as quickly as possible.</p>
           <p class="note">Important: Fields marked with (*) are required</p>
           <form action="send.php" method="post">
-            <input id="nombre-form" type="text" name="nombre" class="input-form" placeholder="Nombre*" required="" />
-            <input id="email-form" type="email" name="correo" class="input-form" placeholder="Dirección E-mail*" required="" />
-            <input id="telefono-form" type="tel" name="telefono" class="input-form" placeholder="Teléfono" />
-            <textarea id="mensaje-form" type="text" name="mensaje" class="input-form" placeholder="Mensaje" rows="6"></textarea>
-            <input id="enviar-form" type="submit" value="Enviar" class="submit-form" />
+            <input id="nombre-form" type="text" name="nombre" class="input-form" placeholder="Name*" required="" />
+            <input id="email-form" type="email" name="correo" class="input-form" placeholder="E-mail*" required="" />
+            <input id="telefono-form" type="tel" name="telefono" class="input-form" placeholder="Phone" />
+            <textarea id="mensaje-form" type="text" name="mensaje" class="input-form" placeholder="Message*" rows="6"></textarea>
+            <input id="enviar-form" type="submit" value="Send" class="submit-form" />
           </form>
         </div>
       </div>
     </section>
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.png" alt="" />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae rerum saepe dignissimos asperiores.</p>
+        </div>
+        <div class="buttons">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="copyright">
+          <p>2023 © Car Hauling. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
 
     <script src="jquery.js"></script>
     <script src="reduce-menu.js"></script>

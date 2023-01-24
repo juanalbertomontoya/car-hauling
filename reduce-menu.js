@@ -12,6 +12,6 @@ $(window).scroll(function () {
 
 /* despliega el menu mobile al precsionar el boton */
 
-$("#boton-menu-mobile").on("click", function () {
-  $(".botones-menu").toggleClass("on");
+$("#menu-button").on("click", function () {
+  $("nav").toggleClass("on");
 });
